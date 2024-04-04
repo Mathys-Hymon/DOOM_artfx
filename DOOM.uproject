@@ -3,6 +3,13 @@
 	"EngineAssociation": "5.2",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "DOOM",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
@@ -16,6 +23,7 @@
 		"Linux",
 		"LinuxArm64",
 		"Mac",
-		"Windows"
+		"Windows",
+		"HoloLens"
 	]
 }
